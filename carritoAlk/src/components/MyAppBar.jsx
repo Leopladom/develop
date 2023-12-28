@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { AppBar, Box, Toolbar, Button, IconButton, Typography } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from 'react-router-dom'; 
@@ -18,7 +18,7 @@ function MyAppBar() {
             >
               <MenuIcon />
             </IconButton>
-            <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <Link to="/#top" style={{ textDecoration: 'none', color: 'inherit' }}>
               <Button color="inherit">
                 <Typography variant="h6" component="div">
                   ShopCart
@@ -27,8 +27,7 @@ function MyAppBar() {
             </Link>
           </Box>
           <Box sx={{ display: 'flex', alignItems: 'center' }}>
-            
-            <Button color="inherit" component={Link} to="/cart">Carrito</Button>
+            <Button color="inherit" component={Link} to="/#bottom">Carrito</Button>
           </Box>
         </Toolbar>
       </AppBar>
