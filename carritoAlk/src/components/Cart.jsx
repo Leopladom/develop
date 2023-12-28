@@ -21,6 +21,10 @@ function Cart({ cartItems, increaseQuantity, decreaseQuantity, removeItem }) {
           </li>
         ))}
       </ul>
+      <br />
+      <div className="purchase-btn-container">
+        <button className="purchase-btn">Realizar Compra</button>
+      </div>
     </div>
   );
 }

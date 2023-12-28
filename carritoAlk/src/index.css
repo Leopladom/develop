@@ -136,3 +136,11 @@ button:focus-visible {
   .item-container img{
     width: 8rem;
   }
+  .cart h2{
+    font-size: 35px;
+    color: red;
+  }
+  .item-list h1{
+    font-size: 45px;
+    color: red;
+  }

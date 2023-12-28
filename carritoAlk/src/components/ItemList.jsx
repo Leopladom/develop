@@ -4,7 +4,8 @@ import Item from './Item';
 function ItemList({ products, addToCart }) {
   return (
     <div className="item-list">
-      <h2>Lista de Productos</h2>
+      <h1>Lista de Productos</h1>
+      <br />
       <ul>
         {products.map((product) => (
           <Item key={product.id} product={product} addToCart={addToCart} />

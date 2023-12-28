@@ -40,8 +40,10 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Carrito de Compras</h1>
+      
       <ItemList products={productsData} addToCart={addToCart} />
+      <hr />
+      <br />
       <Cart
         cartItems={cartItems}
         increaseQuantity={increaseQuantity}
