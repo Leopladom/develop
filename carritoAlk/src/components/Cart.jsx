@@ -1,9 +1,10 @@
+// Cart.jsx
 import React from 'react';
 
 function Cart({ cartItems, increaseQuantity, decreaseQuantity, removeItem }) {
   return (
-    <div className="cart">
-      <h2 id="bottom">Carrito de Compras</h2> {/* Marca para la sección del carrito */}
+    <div className="cart" id="bottom"> {/* Agregamos un ID para anclar al carrito */}
+      <h2>Carrito de Compras</h2>
       <ul className="cart-items">
         {cartItems.map((item, index) => (
           <li key={item.id} className="cart-item">

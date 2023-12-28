@@ -1,9 +1,23 @@
-import React from 'react';
+
+import * as React from 'react';
 import { AppBar, Box, Toolbar, Button, IconButton, Typography } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import { Link } from 'react-router-dom'; 
 
 function MyAppBar() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
+  const scrollToBottom = () => {
+    const cartSection = document.getElementById('bottom');
+    if (cartSection) {
+      cartSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <Box sx={{ flexGrow: 1, marginBottom: '80px' }}>
       <AppBar position="fixed">
@@ -18,16 +32,10 @@ function MyAppBar() {
             >
               <MenuIcon />
             </IconButton>
-            <Link to="/#top" style={{ textDecoration: 'none', color: 'inherit' }}>
-              <Button color="inherit">
-                <Typography variant="h6" component="div">
-                  ShopCart
-                </Typography>
-              </Button>
-            </Link>
+            <Button color="inherit" onClick={scrollToTop}>ShopCart</Button>
           </Box>
           <Box sx={{ display: 'flex', alignItems: 'center' }}>
-            <Button color="inherit" component={Link} to="/#bottom">Carrito</Button>
+            <Button color="inherit" onClick={scrollToBottom}>Carrito</Button>
           </Box>
         </Toolbar>
       </AppBar>
