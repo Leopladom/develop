@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Anafe",
+    "price": 9999,
+    "image": "../src/assets/anafe.png",
+    "description": "anafe"
+  },
+  {
+    "id": 2,
+    "name": "Batidora",
+    "price": 800,
+    "image": "../src/assets/batidora.jpg",
+    "description": "batidora"
+  },
+  {
+    "id": 3,
+    "name": "Celular",
+    "price": 48000,
+    "image": "../src/assets/celu.png",
+    "description": "celu"
+  },
+  {
+    "id": 4,
+    "name": "Celular 2",
+    "price": 57050,
+    "image": "../src/assets/celu2.png",
+    "description": "celu2"
+  },
+  {
+    "id": 5,
+    "name": "Freidora",
+    "price": 631479,
+    "image": "../src/assets/freidora.png",
+    "description": "freidora"
+  },
+  {
+    "id": 6,
+    "name": "Heladera",
+    "price": 18550,
+    "image": "../src/assets/heladera.png",
+    "description": "heladera"
+  },
+  {
+    "id": 7,
+    "name": "Horno",
+    "price": 974585,
+    "image": "../src/assets/horno.png",
+    "description": "horno"
+  },
+  {
+    "id": 8,
+    "name": "Lavadora",
+    "price": 485000,
+    "image": "../src/assets/lava.png",
+    "description": "lava"
+  },
+  {
+    "id": 9,
+    "name": "Lavadora 2",
+    "price": 75874,
+    "image": "../src/assets/lava2.png",
+    "description": "lava2"
+  },
+  {
+    "id": 10,
+    "name": "Lavadora 3",
+    "price": 125749,
+    "image": "../src/assets/lava3.png",
+    "description": "lava3"
+  },
+  {
+    "id": 11,
+    "name": "Licuadora",
+    "price": 57412,
+    "image": "../src/assets/licu.png",
+    "description": "licu"
+  },
+  {
+    "id": 12,
+    "name": "Plancha",
+    "price": 18550,
+    "image": "../src/assets/plancha.png",
+    "description": "plancha"
+  },
+  {
+    "id": 13,
+    "name": "Telefono 1",
+    "price": 35677,
+    "image": "../src/assets/tel.png",
+    "description": "tel"
+  },
+  {
+    "id": 14,
+    "name": "Telefono 2",
+    "price": 65789,
+    "image": "../src/assets/tel2.png",
+    "description": "tel2"
+  },
+  {
+    "id": 15,
+    "name": "Telefono 3",
+    "price": 45874,
+    "image": "../src/assets/telef4.png",
+    "description": "telef4"
+  },
+  {
+    "id": 16,
+    "name": "Termotanque",
+    "price": 654879,
+    "image": "../src/assets/termotanque.png",
+    "description": "termotanque"
+  },
+  {
+    "id": 17,
+    "name": "Tostadora",
+    "price": 58755,
+    "image": "../src/assets/tostadora.png",
+    "description": "tostadora"
+  },
+  {
+    "id": 18,
+    "name": "Ventilador",
+    "price": 485000,
+    "image": "../src/assets/ventilador.png",
+    "description": "ventilador"
+  },
+  {
+    "id": 19,
+    "name": "Pc - Escritorio",
+    "price": 855000,
+    "image": "../src/assets/pc1.png",
+    "description": "pc1"
+  },
+  {
+    "id": 20,
+    "name": "Pc - Escritorio 2",
+    "price": 4800,
+    "image": "../src/assets/pc2.png",
+    "description": "pc2"
+  }
+]
