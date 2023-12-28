@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { AppBar, Box, Toolbar, Button, IconButton, Typography } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import { Link as RouterLink } from 'react-router-dom';
+import { Link } from 'react-router-dom'; 
 
 function MyAppBar() {
   return (
-    <Box sx={{ flexGrow: 1, marginBottom: '80px' }}> {/* Margen inferior añadido */}
+    <Box sx={{ flexGrow: 1, marginBottom: '80px' }}>
       <AppBar position="fixed">
         <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
           <Box sx={{ display: 'flex', alignItems: 'center' }}>
@@ -18,14 +18,17 @@ function MyAppBar() {
             >
               <MenuIcon />
             </IconButton>
-            <Button color="inherit" component={RouterLink} to="/" sx={{ textDecoration: 'none', color: 'inherit' }}>
-              <Typography variant="h6" component="div">
-                ShopCart
-              </Typography>
-            </Button>
+            <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+              <Button color="inherit">
+                <Typography variant="h6" component="div">
+                  ShopCart
+                </Typography>
+              </Button>
+            </Link>
           </Box>
           <Box sx={{ display: 'flex', alignItems: 'center' }}>
-            <Button color="inherit" component={RouterLink} to="/cart">Carrito</Button>
+            
+            <Button color="inherit" component={Link} to="/cart">Carrito</Button>
           </Box>
         </Toolbar>
       </AppBar>
