@@ -8,18 +8,18 @@ const Footer = () => {
     padding: '20px',
     position: 'fixed',
     bottom: '0',
-    height: '6%',
-    width: '96.87%',
+    width: '100%',
+    height: '105px', 
+    
     
   };
 
   return (
     <div style={footerStyle}>
-      
-      <p>Contáctenos:</p>
-      <p>Teléfono: +54 03516221155</p>
-      <p>Correo Electrónico: info@lplaza.com</p>
-      <p>Dirección: Calle Falsa 123 Ciudad Imaginaria</p>
+      <p>Contáctenos: <br />
+      Teléfono: +54 03516221155 <br />
+      Correo Electrónico: info@lplaza.com <br />
+      Dirección: Calle Falsa 123 Ciudad Imaginaria</p>
     </div>
   );
 };

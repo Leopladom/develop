@@ -4,6 +4,7 @@ import Cart from './components/Cart';
 import ItemList from './components/ItemList';
 import productsData from './products.json';
 import MyAppBar from './components/MyAppBar';
+import Footer from './components/Footer'
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
@@ -53,6 +54,7 @@ function App() {
           decreaseQuantity={decreaseQuantity}
           removeItem={removeItem}
         />
+        <Footer />
       </div>
     </Router>
   );
